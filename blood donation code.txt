@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>www.smart health care</title>
+    <link rel="stylesheet" href="blood.js">
+  </head>
+  <body onclick="mahesh()">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="blood donation.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="blood donte.html">Donate Blood</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="#">Biomedical Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="about.html">About us</a>
+            </li>
+
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+                 </form>
+                 <div class="mx-2">
+                    <a href="login.html"><button class="btn btn-danger" >Login</button></a>  
+                     <button class="btn btn-danger">Sign up</button>
+                 </div>
+          </div>
+        </div> 
+    </nav> 
+    <div onclick="alert" id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="blood1.jpg" class="d-block w-100" height="600px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;">First slide label</h5>
+              <p style="color: black;">Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="blood2.jpg" class="d-block w-100" height="600px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;">Second slide label</h5>
+              <p style="color: black;">Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="blood3.jpg" class="d-block w-100" height="600px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;">Third slide label</h5>
+              <p style="color: black;">Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> <br><br>
+      <div class="card-group">
+        <div class="card">
+          <img src="https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/components/rapid-pass-homepage.jpg.transform/1288/q82/feature/image.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Start Your RapidPass</h5>
+            <p class="card-text"> Donating blood today? Complete your pre-reading and health history questions online using any device, before visiting your blood drive location</p>
+             <button class="btn-danger">LEARN MORE</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/components/donate-blood-eligibility.jpg.transform/1288/q82/feature/image.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Am I Eligible to Donate Blood?</h5>
+            <p class="card-text"> Are you eligible for blood donation? Find out about the eligibility requirements to donate blood today. Learn about general health, travel, medications, tattoos, and more.</p>
+            <button class="btn-danger">LEARN MORE</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/components/SC_Card_Image_v2.png.img.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Help Sickle Cell Patients</h5>
+            <p class="card-text"> Blood donors who are Black play a critical role in helping sickle cell disease patients receive the most compatible blood match. Donors needed to meet this urgent need. </p>
+            <button class="btn-danger">LEARN MORE</button>
+          </div>
+        </div>
+      </div><br><br> <br>
+      <img  style="text-align: center; margin-left: 100px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST5O11ZGS3iH2UNRg5_1znHBhlXP0JSu5OlQ&usqp=CAU" height="500px" width="800px" alt="" ><br><br>
+      <h1 style="text-align: center;">More Ways You Can Make a Difference</h1><br><br>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://www.redcrossblood.org/content/dam/redcrossblood/home-page-images/Blood_Mobile.jpg.transform/1288/q82/feature/image.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Host a Blood Drive</h5>
+              <p class="card-text"> Apply To Become A Host </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://www.redcrossblood.org/content/dam/redcrossblood/rcb/home-page/components/ARC_Volunteer.jpg.transform/1288/q82/feature/image.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Become a Volunteer</h5>
+              <p class="card-text">Learn More </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="img-fluid" src="https://www.redcrossblood.org/content/dam/redcrossblood/home-page-images/financial-donation.jpg.transform/1288/q82/feature/image.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Make a Financial Donation</h5>
+              <p class="card-text">Donate Now </p>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div><br><hr>
+    <footer>
+        <div class="rcb-footer-main">
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="social-links col-xl-3" data-context="social-links">
+
+                        <a data-aa-footer-social="Social Link Not Set" href="https://www.facebook.com/RedCrossBlood" target="_blank" data-di-id="di-id-326adabf-5e981249"><i class="fab fa-facebook-f"></i></a>
+
+                        <a data-aa-footer-social="Social Link Not Set" href="https://twitter.com/RedCross" target="_blank" data-di-id="di-id-edb99198-a6689cf7"><i class="fab fa-twitter"></i></a>
+
+                        <a data-aa-footer-social="Social Link Not Set" href="https://www.instagram.com/americanredcross/?hl=en" target="_blank" data-di-id="di-id-f8d9f2a7-e836b717"><i class="fab fa-instagram"></i></a>
+
+                        <a data-aa-footer-social="Social Link Not Set" href="https://www.tiktok.com/@americanredcross?lang=en" target="_blank" data-di-id="di-id-b436be9d-4fcc03b9"><i class="fab fa-tiktok"></i></a>
+
+                </nav>
+                <nav class="footer-links col-xl-9" data-context="footer-links">
+                    <span class="copyright">© 2021  The American National Red Cross</span>
+
+                        <a data-aa-footer-link="Footer Link Not Set" href="/contact-us.html" data-di-id="di-id-c2204c25-67ae41d1"> Contact Us</a>
+
+                        <a data-aa-footer-link="Footer Link Not Set" href="https://www.redcross.org/about-us" target="_blank" data-di-id="di-id-d07829ea-6efbf644"> About Us</a>
+
+                        <a data-aa-footer-link="Footer Link Not Set" href="https://www.redcross.org" target="_blank" data-di-id="di-id-ac2ada0e-f56c401a"> RedCross.org</a>
+
+                        <a data-aa-footer-link="Footer Link Not Set" href="https://www.redcross.org/accessibility.html" target="_blank" data-di-id="di-id-f8d9f2a7-331244f0"> Accessibility</a>
+
+                        <a data-aa-footer-link="Footer Link Not Set" href="https://www.redcross.org/terms-and-conditions" target="_blank" data-di-id="di-id-c2204c25-528f3825"> Terms of Use</a>
+
+                        <a data-aa-footer-link="Footer Link Not Set" href="https://www.redcross.org/privacy-policy" target="_blank" data-di-id="di-id-326adabf-ca214d7a"> Privacy Policy</a>
+
+                        <a data-aa-footer-link="Footer Link Not Set" href="/our-supporters.html" data-di-id="di-id-329ba2c9-7a620755"> Supporters</a>
+
+                        <a data-aa-footer-link="Footer Link Not Set" href="https://www.redcrossblood.org/local-homepage/articles.type=article.p=1.html" data-di-id="di-id-322539bc-db4dab7a"> News</a>
+
+
+                </nav>
+            </div>
+        </div>
+    </div><br><br>
+        <script type="text/javascript">_satellite.pageBottom();</script> 
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '1731308323821672');
+    fbq('track', "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1731308323821672&ev=PageView&noscript=1"
+    /></noscript>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+  </body>
+</html> 
